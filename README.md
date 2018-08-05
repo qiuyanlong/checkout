@@ -4,7 +4,7 @@
 * 多组件
 * ui ant
 
-![image](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
+![image](https://github.com/qiuyanlong/checkout/blob/master/see.png)
 
 ### 使用的主要技术
 
