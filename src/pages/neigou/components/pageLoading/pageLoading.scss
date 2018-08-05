@@ -1,0 +1,28 @@
+/*
+ * @Author: HW.Liang 
+ * @Date: 2018-06-04 18:55:37 
+ * @Last Modified by:   HW.Liang 
+ * @Last Modified time: 2018-06-04 18:55:37 
+ */
+$pole:750/10;
+#pageLoading{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999998;
+    .has-loading-bg{
+        width: 140rem/$pole;
+        height: 140rem/$pole;
+        background-color: rgba(0, 0, 0, .5);
+        padding: 30rem/$pole;
+        border-radius: 8rem/$pole;
+        z-index: 9999999;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        margin-top:-50rem/$pole;
+        margin-left:-50rem/$pole; 
+    }
+}

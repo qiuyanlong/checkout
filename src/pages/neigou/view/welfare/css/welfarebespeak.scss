@@ -1,0 +1,127 @@
+
+@charset "utf-8";
+$pole:750 / 10;
+body{
+    background: #f2f2f2;
+}
+.wele-bespeak{
+    padding: 0 20rem / $pole;
+    .bespeak-top{
+        margin-top: 20rem / $pole;
+        background: #f5f1c2;
+        border: 1px solid #efe5c2;
+        font-size: 0;
+        color: #be821f;
+        padding: 15rem / $pole 10rem / $pole;
+        position: relative;
+        &:after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        img{
+            position: absolute;
+            width: 40rem / $pole;
+            height: 40rem / $pole;
+            left: 20rem / $pole;
+        }
+        span{
+            display: inline-block;
+            font-size: 26rem / $pole;
+            width: 630rem / $pole;
+            letter-spacing: 1px;
+            float: right;
+        }
+    }
+    .bespeak-list{
+        width: 100%;
+        background: #ffffff;
+        .count{
+            margin-top: 20rem / $pole;
+            font-size: 0;
+            border-radius: 6rem / $pole;
+            -webkit-box-shadow: 0 15rem / $pole 30rem / $pole rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15rem / $pole 30rem / $pole rgba(0, 0, 0, 0.1);
+            .count-div{
+                padding-top: 20rem / $pole;
+                .count-top{
+                    width: 180rem / $pole;
+                    height: 42rem / $pole;
+                    line-height: 42rem / $pole;
+                    background: #a8d7ff;
+                    border-radius: 0 25rem / $pole 25rem / $pole 0;
+                    font-size: 24rem / $pole;
+                    color: #ffffff;
+                    text-align: center;
+                    span{
+                        font-size: 30rem / $pole;
+                    }
+                }
+            }
+
+            .all-count{
+                padding: 0 30rem / $pole 30rem / $pole 30rem / $pole;
+                &:after{
+                    display: table;
+                    content: "";
+                    clear: both;
+                }
+                .count-f{
+                    float: left;
+                    font-size: 0;
+                    h2{
+                        width: 440rem / $pole;
+                        font-size: 36rem / $pole;
+                        color: #333333;
+                        margin-top: 30rem / $pole;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    .desc{
+                        margin-top: 35rem / $pole;
+                        font-size: 24rem / $pole;
+                        color: #999999;
+                    }
+                    .time{
+                        margin-top: 10rem / $pole;
+                        font-size: 24rem / $pole;
+                        color: #999999;
+                    }
+                }
+                .count-r{
+                    float: right;
+                    font-size: 0;
+                    .money{
+                        margin-top: 15rem / $pole;
+                        font-size: 40rem / $pole;
+                        color: #44bbff;
+                        text-align: center;
+                        span{
+                            font-size: 70rem / $pole;
+                        }
+                        .mianyou{
+                            font-size: 50rem / $pole;
+                        }
+                    }
+                    .on-click{
+                        margin-top: 10rem / $pole;
+                        width: 148rem / $pole;
+                        height: 48rem / $pole;
+                        line-height: 48rem / $pole;
+                        background: #44bbff;
+                        font-size: 26rem / $pole;
+                        color: #FFFFFF;
+                        text-align: center;
+                        border-radius: 6rem / $pole;
+                    }
+                    .alw-on{
+                        border: 1px solid #44bbff!important;
+                        background: #FFFFFF!important;
+                        color: #44bbff!important;
+                    }
+                }
+            }
+        }
+    }
+}

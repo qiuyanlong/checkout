@@ -1,0 +1,147 @@
+
+@charset "utf-8";
+$pole:750 / 10;
+
+.voucher-wel{
+    max-width: 750rem / $pole;
+    margin: 0 auto;
+   .top-wel{
+        .wel-banner{
+            position: relative;
+            font-size: 0;
+            width: 750rem / $pole;
+            height: 530rem / $pole;
+            img{
+                width: 750rem / $pole;
+                height: 530rem / $pole;
+            }
+            p{
+                width: 670rem / $pole;
+                background: #ffffff;
+                padding: 20rem / $pole;
+                position: absolute;
+                font-size: 24rem / $pole;
+                color: #333333;
+                bottom: 0;
+                letter-spacing: 1px;
+                margin-left: 40rem / $pole;
+                border-radius: 4rem / $pole;
+                line-height: 35rem / $pole;
+            }
+        }
+   }
+
+    .posters-h2{
+        line-height: 120rem / $pole;
+        font-size: 34rem / $pole;
+        color: #984d04;
+        text-align: center;
+        font-weight: bold;
+        span{
+            display: inline-block;
+            width: 17rem / $pole;
+            height: 17rem / $pole;
+            background: #ffee00;
+            transform:rotate(45deg);
+            -ms-transform:rotate(45deg);
+            -moz-transform:rotate(45deg);
+            -webkit-transform:rotate(45deg);
+            -o-transform:rotate(45deg);
+            margin:7rem/ $pole auto;
+            vertical-align: middle;
+        }
+    }
+    .month-count{
+        margin: 0 40rem / $pole 40rem / $pole 40rem / $pole;
+        background: #FFFFFF;
+        border-radius: 6rem / $pole;
+        .all-c{
+            margin: 0 30rem / $pole;
+            .month-list{
+                padding: 30rem / $pole 0;
+                font-size: 0;
+                text-align: center;
+                h3{
+                    font-size: 40rem / $pole;
+                    color: #333333;
+                    span{
+                        font-size: 26rem / $pole;
+                        color: #44bbff;
+                    }
+                    em{
+                        font-size: 50rem / $pole;
+                        color: #44bbff;
+                        font-style: normal;
+                    }
+                    .mianyou{
+                        font-size: 30rem / $pole;
+                    }
+                }
+                .list-desc{
+                    margin-top: 10rem / $pole;
+                    font-size: 28rem / $pole;
+                    color: #999999;
+                }
+                .list-time{
+                    margin-top: 10rem / $pole;
+                    font-size: 28rem / $pole;
+                    color: #999999;
+                }
+            }
+        }
+
+        .border-last{
+            border-bottom: 2px dashed #f0f0f0;
+        }
+    }
+    .activity-time{
+        margin-top: 40rem / $pole;
+        margin-bottom: 60rem / $pole;
+        font-size: 0;
+        text-align: center;
+        color: #984d04;
+        span{
+            font-size: 24rem / $pole;
+        }
+
+    }
+    .m-t-2{
+        line-height: 40rem / $pole;
+    }
+    .activity-p{
+        margin-top: 20rem / $pole;
+        font-size: 24rem / $pole;
+        color: #b96615;
+        text-align: center;
+    }
+    .div-img{
+        text-align: center;
+        margin-top: 20rem / $pole;
+        img{
+            width: 698rem / $pole;
+            height: 1042rem / $pole;
+        }
+    }
+    .find-in{
+        font-size: 0;
+        text-align: center;
+        margin: 40rem / $pole 0;
+        .go-in{
+            display: inline-block;
+            width: 428rem / $pole;
+            height: 86rem / $pole;
+            line-height: 86rem / $pole;
+            border-radius: 45rem / $pole;
+            background: #a443ee;
+            color: #FFFFFF;
+            font-size: 28rem / $pole;
+            text-align: center;
+        }
+        .no-in{
+            background: #d2d2d2;
+        }
+    }
+
+}
+
+

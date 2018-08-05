@@ -1,0 +1,153 @@
+
+@charset "utf-8";
+$pole:750 / 10;
+.voucher-wel{
+    max-width: 750rem / $pole;
+    margin: 0 auto;
+   .top-wel{
+        .wel-banner{
+            position: relative;
+            font-size: 0;
+            width: 750rem / $pole;
+            height: 530rem / $pole;
+            img{
+                width: 750rem / $pole;
+                height: 530rem / $pole;
+            }
+            p{
+                width: 670rem / $pole;
+                background: #ffffff;
+                padding: 20rem / $pole;
+                position: absolute;
+                font-size: 24rem / $pole;
+                color: #333333;
+                bottom: 0;
+                letter-spacing: 1px;
+                margin-left: 40rem / $pole;
+                border-radius: 4rem / $pole;
+            }
+        }
+   }
+    .wele-voucher-all{
+        padding: 0 20rem / $pole;
+        font-size: 0;
+        line-height: 80rem / $pole;
+        .font-tishi{
+            display: inline-block;
+            img{
+                width: 27rem / $pole;
+                height: 24rem / $pole;
+            }
+            span{
+                font-size: 24rem / $pole;
+                color: #ffffff;
+                vertical-align: middle;
+            }
+        }
+    }
+    .wel-voucher-list{
+        padding: 0 20rem / $pole 20rem / $pole 20rem / $pole;
+        .list-all{
+            background: #ffffff;
+            margin-bottom: 20rem / $pole;
+            border-radius: 4rem / $pole;
+            padding: 20rem / $pole;
+            position: relative;
+            .ale-l{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 107rem / $pole;
+                height: 106rem / $pole;
+            }
+            &:after{
+                display: table;
+                content: "";
+                clear: both;
+            }
+            .all-l{
+                float: left;
+                h2{
+                    width: 470rem / $pole;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin-top: 10rem / $pole;
+                    font-size: 36rem / $pole;
+                    color: #333333;
+                }
+                .p-1{
+                    margin-top: 10rem / $pole;
+                    font-size: 24rem / $pole;
+                    color: #999999;
+                }
+                .p-2{
+                    margin-top: 5rem / $pole;
+                    font-size: 24rem / $pole;
+                    color: #999999;
+                }
+            }
+
+            .all-r{
+                float: right;
+                font-size: 0;
+                .money{
+                    font-size: 40rem / $pole;
+                    color: #44bbff;
+                    text-align: center;
+                    span{
+                        font-size: 70rem / $pole;
+                        color: #44bbff;
+                    }
+                    .mianyou{
+                        font-size: 50rem / $pole;
+                    }
+                }
+                .go-click{
+                    display: inline-block;
+                    width: 148rem / $pole;
+                    height: 48rem / $pole;
+                    line-height: 48rem / $pole;
+                    background: #44bbff;
+                    text-align: center;
+                    color: #ffffff;
+                    font-size: 26rem / $pole;
+                    border-radius: 6rem / $pole;
+                }
+                .let-go{
+                    border: 1px solid #44bbff;
+                    color: #44bbff!important;
+                    background: #ffffff!important;
+                }
+            }
+        }
+        .ale-u{
+            background: #cccccc;
+            .all-l{
+                h2{
+                    color: #ffffff;
+                }
+                .p-1{
+                    color: #ffffff;
+                }
+                .p-2{
+                    color: #ffffff;
+                }
+            }
+            .all-r{
+                .money{
+                    color: #ffffff;
+                    span{
+                        color: #ffffff;
+                    }
+                }
+                .go-click{
+                    color: #ffffff;
+                    background: #b5b5b5;
+                }
+            }
+        }
+    }
+}
+
+
