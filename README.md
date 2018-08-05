@@ -12,6 +12,7 @@
 * vuex
 * axios
 * vant
+* upload
 * base64加密
 
 
