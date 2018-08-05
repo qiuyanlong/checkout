@@ -1,6 +1,18 @@
-# vue-v3
+# cheeckout 结算页面
 
-> A Vue.js project
+* 实现多类型，多家公司结算
+* 多组件
+* ui ant
+
+
+### 使用的主要技术
+
+* vue-router
+* vuex
+* axios
+* vant
+* base64加密
+
 
 ## Build Setup
 
@@ -24,4 +36,4 @@ npm run unit
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> ps: 项目不可运行,部分代码已删除，内部项目
