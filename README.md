@@ -1,12 +1,11 @@
 # cheeckout 结算页面
 
-* 实现多类型，多家公司结算
-* 多组件
+* 购物车
 * ui ant
 
 ![image](https://github.com/qiuyanlong/checkout/blob/master/see.png)
 
-### 使用的主要技术
+### main
 
 * vue-router
 * vuex
@@ -38,4 +37,4 @@ npm run unit
 npm test
 ```
 
-> ps: 项目不可运行,部分代码已删除，内部项目
+
