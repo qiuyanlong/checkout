@@ -73,7 +73,7 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
-    "vant": "1.1.5",
+    "vant": "2.9.2",
     "vee-validate": "^2.0.0-rc.15",
     "vue-awesome-swiper": "^2.6.2",
     "vue-loader": "^13.3.0",
